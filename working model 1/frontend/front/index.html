@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .options {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .option {
+      margin: 0 20px;
+      padding: 20px 30px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .option:hover {
+      transform: scale(1.05);
+    }
+    
+    .student {
+      background-color: #ff6b6b; /* Vivid Red */
+      color: #fff;
+    }
+    
+    .teacher {
+      background-color: #48dbfb; /* Vivid Blue */
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="options">
+      <div class="option student" onclick="location.href='student.html'">
+        <h2>Student</h2>
+        <p>Access student features</p>
+      </div>
+      <div class="option teacher" onclick="location.href='teacher.html'">
+        <h2>Teacher</h2>
+        <p>Access teacher features</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

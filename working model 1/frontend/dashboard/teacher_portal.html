@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard</title>
+    <link rel="stylesheet" href="teacher.css">
+</head>
+<body>
+    <div class="teacher-section">
+        <h2>Hello, Teacher</h2>
+        <!-- Announcement form -->
+        <form id="announcement-form" class="announcement-form">
+            <textarea id="announcement" placeholder="Enter announcement"></textarea>
+            <button type="submit">Submit Announcement</button>
+        </form>
+        <!-- Zoom meeting creation -->
+        <div class="zoom-meeting">
+            <h3>Create Zoom Meeting</h3>
+            <label for="meeting-topic">Meeting Topic:</label>
+            <input type="text" id="meeting-topic" placeholder="Enter meeting topic">
+            <label for="meeting-date">Meeting Date:</label>
+            <input type="date" id="meeting-date" min="<?php echo date('Y-m-d'); ?>" required>
+            <button id="create-meeting" type="button">Create Meeting</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

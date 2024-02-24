@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light background color */
+}
+
+/* Styles for the teacher section */
+.teacher-section {
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px auto; /* Center the box horizontally */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+.teacher-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+}
+
+/* Styles for the announcement form */
+.announcement-form {
+    margin-top: 20px;
+}
+
+.announcement-form textarea {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+.announcement-form button {
+    padding: 12px 20px;
+    background-color: #4f03f1; /* Green button color */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: calc(100% - 20px);
+    transition: background-color 0.3s ease;
+}
+
+.announcement-form button:hover {
+    background-color: #a2e6a6; /* Darker green on hover */
+}
+
+/* Styles for the zoom meeting creation */
+.zoom-meeting {
+    margin-top: 30px;
+}
+
+.zoom-meeting h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.zoom-meeting label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    color: #666; /* Dark gray text color */
+}
+
+.zoom-meeting input[type="text"],
+.zoom-meeting input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.zoom-meeting button {
+    padding: 12px 20px;
+    background-color: #4f03f1;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: calc(100% - 20px);
+    transition: background-color 0.3s ease;
+}
+
+.zoom-meeting button:hover {
+    background-color: #a2e6a6;
+}
